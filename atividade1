@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int x_global = 10;
+int x_global = 10;  
 
-int main()
-{
-    int x_local = 5;
+int main() {
+    int x_local = 5;  
 
-    printf ("valor da variável global x_global: %d\n", x_global);
-    printf ("valor da variável local x_local: %d\n", x_local);
+    printf("Valor da variável global x_global: %d\n", x_global);
+    printf("Valor da variável local x_local: %d\n", x_local);
 
-    0;
+    return 0; 
 }
